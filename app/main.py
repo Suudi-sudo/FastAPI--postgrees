@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.database import engine, Base
-from app.routers import users, products, orders
+from database import engine, Base
+from routers import users, products, orders
 
 app = FastAPI(title="E-commerce API")
 
